@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.u1tema2android.FragmentTabhost.FragmentTabhost;
+import com.example.u1tema2android.FragmentTabhost.MiFragmentTabhost;
 import com.example.u1tema2android.Multimedia.Multimedia;
 import com.example.u1tema2android.RecyclerView.MiRecyclerView;
 
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         if (id == R.id.activity_mifragmenttabhost) {
-            startActivity(new Intent(this, FragmentTabhost.class));
+            startActivity(new Intent(this, MiFragmentTabhost.class));
             return true;
         }
         return super.onOptionsItemSelected(item);
