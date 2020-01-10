@@ -15,11 +15,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MiRecyclerView"></activity>
+        <activity android:name=".FragmentTabhost"></activity>
+        <activity android:name=".MiRecyclerView" />
         <activity android:name=".Permisos" />
         <activity android:name=".Multimedia2" />
         <activity android:name=".Multimedia" />
-        <activity android:name=".Intenciones" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,6 +27,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Intenciones"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"></activity>
     </application>
 
 </manifest>
